@@ -38,7 +38,7 @@ function Sub() {
 
         let pass = (m >= 33) && (e >= 33) && (s >= 33) && (ss >= 33) && (h >= 33);
 
-        let status = pass ? "Status: Pass🎉" : "Status: Fail😎";
+        let status = pass ? "Status: Pass🎉" : "Status not pass all Subjects : Fail😎 ";
         console.log(status);
 
         R_pf.textContent = status;
